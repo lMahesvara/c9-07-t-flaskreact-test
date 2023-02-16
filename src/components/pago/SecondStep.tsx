@@ -27,12 +27,12 @@ const SecondStep = ({ handlePrevStep, handleNextStep }: SecondStepProps) => {
           <Title>Seleccionar Método de Pago</Title>
           <div className='flex flex-col gap-4 mt-4'>
             <RadioBtn
-              img='icons/mercado-pago.svg'
+              img='icons/Mercado-pago.svg'
               label={OpcionesPago.MercadoPago}
               onChange={handlePick}
             />
             <RadioBtn
-              img='icons/efectivo.svg'
+              img='icons/Efectivo.svg'
               label={OpcionesPago.Efectivo}
               onChange={handlePick}
             />
