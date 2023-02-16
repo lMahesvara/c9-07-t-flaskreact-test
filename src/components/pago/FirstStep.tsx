@@ -25,7 +25,7 @@ const FirstStep = ({ handleNextStep }: FirstStepProps) => {
         <Title>Opciones de envío</Title>
         <div className='flex flex-col gap-4 mt-4'>
           <RadioBtn
-            img='icons/car-shipping.svg'
+            img='icons/Car-shipping.svg'
             label={OpcionesEnvio.EnvioDomicilio}
             amount={500}
             onChange={handlePick}
